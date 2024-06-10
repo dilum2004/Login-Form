@@ -1,0 +1,130 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url(/pexels-fabianreitmeier-707915.jpg);
+   background-size: cover;
+}
+form{
+   width: 400px;
+   height: 500px;
+   background-color:transparent;
+   backdrop-filter: blur(20px);
+   border-radius: 20px;
+   text-align: center;
+}
+.icon-user{
+
+   color:#efeaea;
+   font-size: 55px;
+   margin-top: 10%;
+}
+.login{
+   font-size: 1.5rem;
+   color: #fff;
+}
+.email input{
+   width: 80%;
+   border: none;
+   background-color: transparent;
+   color: #fff;
+   font-size: 1rem;
+   outline: none;
+}
+.email input::placeholder{
+   color: #fff;
+   font-size: 1rem;
+}
+.email i{
+   color:#fff ;
+}
+.email{
+   border:none;
+   border-bottom:1px solid #fff ;
+   width: 90%;
+   margin-top: 5%;
+   padding: 10px 0px 10px 0px ;
+   margin-left: 5%;
+}
+
+.password input{
+   width: 80%;
+   border: none;
+   background-color: transparent;
+   outline: none;
+   color: #fff;
+   font-size: 1rem;
+}
+.password{
+   border:none;
+   border-bottom: 1px solid #fff;
+   width: 90%;
+   margin-top: 5%;
+   height: 40px;
+   padding: 10px 0px 10px 0px ;
+   margin-left: 5%;
+}
+.password input::placeholder{
+   color: #fff;
+   font-size: 1rem;
+}
+.password i{
+   color: #fff;
+}
+.forget{
+   display: flex;
+}
+.forget input{
+   margin-left: 5%;
+   margin-top: 5%;
+}
+.forget label{
+   margin-left: 2%;
+   margin-top: 5%;
+   color: #fff;
+}
+.forget a{
+   margin-top: 5%;
+   margin-left: 25%;
+   color: #fff;
+}
+.forget a:hover{
+   color:blue ;
+}
+.button button{
+   width: 80%;
+   padding: 10px 0px 10px 0px ;
+   border: none;
+   font-size: 1rem;
+   font-weight: bold;
+   color: #fff;
+   background-color: blue;
+   border-radius: 8px;
+   margin-top: 5%;
+}
+.button button:hover{
+   background-color:rgb(93, 93, 222) ;
+}
+.rejister{
+   display: flex;
+}
+.rejister label{
+   margin-top: 5%;
+   margin-left: 15%;
+   color: #fff;
+}
+.rejister a{
+   margin-top: 5%;
+   margin-left: 5%;
+   color: #fff;
+}
+.rejister a:hover{
+   color: blue;
+}
